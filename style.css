@@ -1,0 +1,86 @@
+.menu_bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+}
+.logo {
+    display: inline-block;
+    vertical-align:top;
+    width: 268px;
+    height: 40px;
+    margin-left: 160px;
+    margin-top: -0px;    /* if you want it vertically middle of the navbar. */
+}
+
+.menu_bar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50 330%;
+}
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px 30px;
+}
+.menu_bar ul li{
+    padding: 300px 20px;
+    margin-right: -200px -30px;
+}
+.menu_bar ul li a {
+color: aquamarine;
+text-decoration: none;
+font-size: 20px;
+transition: all 0.3s;
+}
+.dec{
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.ling{
+    display: block;
+    margin: 0 auto;
+    padding-top:20px;
+    text-align: center;
+    color: rgb(14, 192, 88);
+    text: size 1px;
+}
+
+
+.content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 13px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    font-size: 13px;
+}
+
+.sar {
+    color: brown;
+    font-size: 8em;
+    text-align: center;
+}
+.conten{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.ca{
+    background-color: rgb(94, 6, 6);
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    font-size: 13px;
+}
